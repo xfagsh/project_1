@@ -10,6 +10,9 @@
     /* border: 1px solid black; */
     margin: 0 auto;
 }
+
+/* шапка с логотипом,названием компании и навигацией */
+
 .header{
     height: 178px;
     background-color: white;
@@ -26,17 +29,13 @@
     height: 95px;
     width: 95px;
 }
-
 .go__to__top{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 22px;
-
 }
-
-.GoToTop{
-    
+.GoToTop{ 
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -44,7 +43,6 @@ font-size: 40px;
 line-height: 15px;
 color: #00BCEB;
 }
-
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -69,6 +67,9 @@ line-height: 21px;
 text-align: center;
 color: #26A1E4;
 }
+
+/* Заголовок H1, кнопка для связи, подзаголовок */
+
 .promo_wrapper{
 height: 762px;
 background-image: url(backgrounds/back1.jpg);
@@ -90,7 +91,6 @@ color: #FFFFFF;
 margin-top: 5px;
 margin-bottom: 60px ;
 }
-
 .promo__btn{
 border: 1px solid #FFFFFF;
 height: 44px;
@@ -98,8 +98,9 @@ width: 145px;
 color: white;
 background-color: black;
 opacity:0.57;
-
 }
+
+/* Раздел с карточками описания услуг */
 
 .card_box{
 height: 625px;
@@ -115,16 +116,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-
-
-
 }
 
 .card__img{
     height:70px;
     width: 76px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
 
 .card__h2{
@@ -137,10 +134,7 @@ flex-direction: column;
     text-transform: uppercase;
     color: #22A7F0;
     height: 35px;
-    margin-top: 5px;
-   
-    
-    
+    margin-top: 5px;   
 }
 .card__p{
     font-family: 'Roboto', sans-serif;
@@ -149,9 +143,10 @@ flex-direction: column;
     color: #353535;
    margin-top: 10px;
    height: 150px;
-  
-   
 }
+
+/* Заголовок и кнопка "связаться" */
+
 .wrapper__contact{
 height: 122px;
 background: #26A1E4;
@@ -160,7 +155,6 @@ grid-template-columns: 5fr 1fr;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: 20px;
-
 text-align: center;
 color: #FFFFFF;
 }
@@ -169,17 +163,13 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
     margin-left: 210px;
-    margin-right: 100px ;
-    
-    
+    margin-right: 100px ; 
 }
 .wrapper__contact_button{
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 .wrapper__contact__btn{
-
 height: 51px;
 width: 174px;   
 font-family: 'Roboto', sans-serif;
@@ -192,8 +182,10 @@ background-color:#26A1E4;
 color: #FFFFFF;
 border: 2px solid white;
 margin-right: 220px;
-
 }
+
+/* блок с портфолио */
+
 .gallery{
 height: 450px;
 background: #E5E5E5;
@@ -218,7 +210,6 @@ background: #FF5384;
 margin-left: 220px;
 
 }
-
 .gallery__portfolio{
     display: flex;
     justify-content: space-between;
@@ -230,22 +221,15 @@ margin-left: 220px;
     background-image: url(pics/site1.jpg);
     margin-left: 220px;
     margin-bottom: 75px;
-    margin-top: 25px; 
-    
-
-    
+    margin-top: 25px;   
 }
-
 .gallery__img__2{
     height: 249px;
     width:  370px;
     background-image: url(pics/site2.jpg);
     margin-bottom: 75px;
     margin-top: 25px;
-    
-    
 }
-
 .gallery__img__3{
     height: 249px;
     width:  370px;
@@ -255,6 +239,7 @@ margin-left: 220px;
     margin-top: 25px;
 }
 
+/* Блок со статистикой услуг */
 
 .statistic{
 height: 235px;
@@ -265,16 +250,12 @@ grid-template-columns: repeat(4,1fr);
 padding-right: 220px;
 padding-left: 220px;
 }
-
 .statistic__card{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-
 }
-
 .statistic_numbers{
     font-family: Roboto;
     font-weight: bold;
@@ -294,12 +275,13 @@ padding-left: 220px;
     color: #FFFFFF;
 }
 
+/* новостной блок */
+
 .news{
 height: 475px;
 display: grid;
 grid-template-rows: 1fr 5px 3fr;
 }
-
 .news__h3{
     display: flex;
     align-items: center;
@@ -307,8 +289,7 @@ grid-template-rows: 1fr 5px 3fr;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: #22A7F0;
-    
+    color: #22A7F0; 
     }
     .news__line{
     width: 68px;
@@ -317,13 +298,11 @@ grid-template-rows: 1fr 5px 3fr;
     margin-left: 220px;
     
     }
-
 .news__block{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-
 .block__1{
     display: flex;
     align-items: center;
@@ -331,35 +310,24 @@ grid-template-rows: 1fr 5px 3fr;
     padding-top: 25px;
     background: #F8F8F8;
     padding-bottom: 25px;
-   
-
 }
-
 .block__2{
     display: flex;
     align-items: center;
     padding-top: 25px;
     background: #F8F8F8;
-    -padding-right: 170px;
     margin-left: 130px;
     padding-bottom: 25px;
-    
-    
-    
-
 }
-
 .block__img{
     height: 212px;
     width: 227px;
     margin-right: 25px;
-
 }
 .block__p__flex{
     display: flex;
     flex-direction: column;
     width: 300px;
-
 }
 .block__p{
 font-family: 'Roboto', sans-serif;
@@ -370,14 +338,13 @@ line-height: 19px;
 color: #353535;
 }
 
-
+/* блок с формами обратной связи */
 
 .feedback{
 height:475px ;
 display: grid;
 grid-template-rows: 1fr 5px 3fr;
 }
-
 .feedback__h3{
 display: flex;
 align-items: center;
@@ -386,16 +353,13 @@ font-family: 'Roboto', sans-serif;
 font-size: 30px;
 text-align: center;
 color: #22A7F0;
-
 }
 .feedback__line{
 width: 68px;
 height: 2px;
 background: #FF5384;
 margin-left: 220px;
-
 }
-
 .feedback__block{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -426,7 +390,6 @@ width: 546.97px;
 background: #26A1E4;
 border: 4px solid #26A1E4;
 margin-top: 13px;
-
 font-family: Roboto;
 font-size: 18.013px;
 color: #FFFFFF;
@@ -436,7 +399,6 @@ color: #FFFFFF;
     margin-left: 53px;
     margin-right: 220px;
 }
-
 .input__block__2{
 height: 166.31px;
 width: 546.97px;
@@ -447,9 +409,9 @@ font-family: Roboto;
 font-size: 18.013px;
 color: #706F7D;
 padding-left: 7px;
-
 }
 
+/* Блок с контактами, адресами и навигацией */
 
 .contacts{
 height: 280px;
@@ -460,15 +422,11 @@ grid-template-columns: 1fr 1fr 1fr;
 padding-left:220px;
 padding-right: 220px;
 }
-
 .contacts__box{
 display: flex;
 align-items: flex-start;
 flex-direction: column;
 padding: 20px;
-
-
-
 }
 .contacts__h3{
 padding-top: 20px;
@@ -485,7 +443,9 @@ color: #FFFFFF;
 height: 12px;
 width: 18px;
 margin-right: 10px;
-}
+}  
+
+/* подвал сайта */
 
 .footer{
 display: flex;
@@ -493,9 +453,7 @@ align-items: center;
 justify-content: center;
 height:85px;
 background:black;
-
 }
-
 .footer__p{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
