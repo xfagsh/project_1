@@ -7,7 +7,6 @@ box-sizing: border-box;
 width:1580px;
 display: grid;
 background-color: #F8F8F8;
-/* border: 1px solid black; */
 margin: 0 auto;
 }
 /* шапка с логотипом,названием компании и навигацией */
@@ -76,7 +75,7 @@ opacity:0.57;
 }
 .promo_wrapper{
 height: 762px;
-background-image: url(backgrounds/NEWS2.png);
+background-image: url(backgrounds/bg_contacts.png);
 background-size: cover;
 display: flex;
 justify-content: center;
@@ -135,7 +134,7 @@ line-height: 21px;
 color: #353535;
 padding-bottom: 56px;
 }
-/* новостной блок */
+/* новостной блок с именами сотрудников */
 .news{
 height: 475px;
 display: grid;
@@ -202,6 +201,21 @@ font-size: 16px;
 line-height: 19px;
 color: #353535;
 }
+.block__p_blue{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: rgba(34, 167, 240, 0.79);
+}
+.block__h4{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 24px;
+color: #353535;
+}
 .block__a{
 text-decoration: none;
 padding-top: 15px;
@@ -210,42 +224,88 @@ font-family: 'Roboto', sans-serif;
 font-size: 14px;
 color: #26A1E4;
 }
-/* Заголовок и кнопка "связаться" */
-.wrapper__contact{
-height: 122px;
-background: #26A1E4;
+/* юлок с обратной связью и контактами */
+.feedback{
+background: rgba(34, 167, 240, 0.79);
+height: 500px;
 display: grid;
-grid-template-columns: 5fr 1fr;
-font-family: 'Roboto', sans-serif;
-font-weight: normal;
-font-size: 20px;
-text-align: center;
-color: #FFFFFF;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
 }
-.wrapper__contact__h3{
+.feedback__contacts{
 display: flex;
 justify-content: center;
-align-items: center;
-margin-left: 210px;
-margin-right: 100px ; 
+flex-direction: column;
+padding-left: 240px;
+padding-bottom: 140px;
+padding-top: 140px;
+padding-right: 240px;
 }
-.wrapper__contact_button{
-display: flex;
-align-items: center; 
-}
-.wrapper__contact__btn{
-height: 51px;
-width: 174px;   
+.feedback__p{
 font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
 font-size: 18px;
-line-height: 21px;
-text-align: center;
-background-color:#26A1E4;
+text-transform: uppercase;
 color: #FFFFFF;
-border: 2px solid white;
-margin-right: 220px;
+margin-right: 600px;
+margin-bottom: 10px;
+}
+.feedback__contacts__img{
+height: 36px;
+width: 36px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.feedback__contacts__p{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #FFFFFF;
+}
+.feedback__block{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.input{
+height: 52px;
+width: 557.28px;
+border: none;
+margin-top: 15px;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+margin-right: 200px;
+text-transform: uppercase;
+color: #BEBEBE;
+}
+.input__feedback{
+height: 168px;
+width: 557.28px;
+margin-top: 15px;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+border: none;
+text-transform: uppercase;
+color: #BEBEBE;
+margin-right: 200px;
+}
+.feedback__btn{
+height: 52px;
+width: 557.28px;
+margin-top: 15px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+background: #FF5384;
+color: #FFFFFF;
+border: none;
+margin-bottom: 50px;
+margin-right: 200px;
+}
+/* maps */
+.maps{
+height: 635px;
+background-image: url(pics/maps.png);
 }
 /* Блок с контактами, адресами и навигацией */
 .contacts{
