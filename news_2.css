@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:1580px;
+    display: grid;
+    background-color: #F8F8F8;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+/* шапка с логотипом,названием компании и навигацией */
+
+.header{
+    height: 178px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+.logo{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-left: 200px;
+}
+.logo__img{
+    height: 95px;
+    width: 95px;
+}
+.go__to__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+}
+.GoToTop{ 
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 15px;
+color: #00BCEB;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar__li{
+list-style-type: none;
+}
+.navbar__li a{
+text-decoration: none;
+padding: 18px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 21px;
+text-align: center;
+color:black;
+}
+
+.navbar__li a.active{
+    color: #26A1E4; 
+}
+
+/* Заголовок H1, кнопка для связи, подзаголовок */
+
+.dark_background{
+    background: #000000;
+    opacity:0.57;
+/* не затемняется( */
+}
+
+.promo_wrapper{
+height: 762px;
+background-image: url(backgrounds/NEWS2.png);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+h1{
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+color: #FFFFFF;
+}
+.promo__h4{
+font-family: Roboto;
+font-size: 22px;
+color: #FFFFFF;
+margin-top: 5px;
+margin-bottom: 60px ;
+}
+
+/* news */
+.blog{
+display: grid;
+grid-template-rows: 1fr 4px 5fr;
+}
+.blog__h3{
+display: flex;
+align-items: center;
+margin-left: 220px;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+text-align: center;
+color: #22A7F0;
+margin-top: 60px; 
+}
+.blog__line{
+width: 68px;
+height: 2px;
+background: #FF5384;
+margin-left: 220px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.blog__block{
+margin-right: 220px;
+margin-left: 220px;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+.blog__block p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #353535;
+    padding-bottom: 56px;
+}
+
+
+
+
+
+/* новостной блок */
+
+.news{
+height: 475px;
+display: grid;
+grid-template-rows: 1fr 5px 3fr;
+background-color: white;
+}
+.news__h3{
+display: flex;
+align-items: center;
+margin-left: 220px;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+text-align: center;
+color: #22A7F0; 
+}
+.news__line{
+width: 68px;
+height: 2px;
+background: #FF5384;
+margin-left: 220px;
+
+
+}
+.news__block{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+}
+.block__1{
+display: flex;
+align-items: center;
+margin-left: 175px;
+padding-top: 30px;
+background: #F8F8F8;
+padding-bottom: 25px;
+height: 211px;
+width: 557px;
+margin-top: 30px;
+
+
+}
+.block__2{
+display: flex;
+align-items: center;
+padding-top: 30px;
+background: #F8F8F8;
+margin-left: 130px;
+padding-bottom: 25px;
+height: 211px;
+width: 557px;
+margin-top: 30px;
+
+
+}
+.block__img{
+height: 212px;
+width: 227px;
+margin-right: 25px;
+}
+.block__p__flex{
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+.block__p{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #353535;
+}
+
+.block__a{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 150px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+color: #26A1E4;
+
+}
+
+/* Заголовок и кнопка "связаться" */
+
+.wrapper__contact{
+height: 122px;
+background: #26A1E4;
+display: grid;
+grid-template-columns: 5fr 1fr;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.wrapper__contact__h3{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 210px;
+margin-right: 100px ; 
+}
+.wrapper__contact_button{
+display: flex;
+align-items: center; 
+}
+.wrapper__contact__btn{
+height: 51px;
+width: 174px;   
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+background-color:#26A1E4;
+color: #FFFFFF;
+border: 2px solid white;
+margin-right: 220px;
+}
+
+/* Блок с контактами, адресами и навигацией */
+
+.contacts{
+height: 280px;
+background: #161616;
+display: grid;
+grid-template-rows: 1fr 2fr;
+grid-template-columns: 1fr 1fr 1fr;
+padding-left:220px;
+padding-right: 220px;
+}
+.contacts__box{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+padding: 20px;
+}
+.contacts__h3{
+padding-top: 20px;
+font-family: 'Roboto', sans-serif;
+font-size: 20.038px;
+color: #22A7F0;
+}
+.contacts__p{
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+color: #FFFFFF;
+}
+.contacts__img{
+height: 12px;
+width: 18px;
+margin-right: 10px;
+}  
+
+/* подвал сайта */
+
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+height:85px;
+background:black;
+}
+.footer__p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+color: #FFFFFF;
+}

@@ -65,7 +65,11 @@ font-weight: normal;
 font-size: 21px;
 line-height: 21px;
 text-align: center;
-color: #26A1E4;
+color:black;
+}
+
+.navbar__li a.active{
+    color: #26A1E4; 
 }
 
 /* Заголовок H1, кнопка для связи, подзаголовок */
